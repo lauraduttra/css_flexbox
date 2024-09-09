@@ -1,0 +1,23 @@
+/* zerando as configurações */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Etilizando o parágrafo */
+.products p{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: darkred;
+    padding: 30px;
+    background-color: indianred;
+}
