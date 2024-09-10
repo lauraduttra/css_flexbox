@@ -1,5 +1,5 @@
 ## *Aulas css flexbox*
 
-- polaroids
-- teste flexbox
-- desafio -jogo sapo
+- polaroids 📸
+- teste flexbox 👩🏻‍💻
+- desafio -jogo do sapo 🐸
