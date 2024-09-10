@@ -10,14 +10,50 @@
     margin: 0;
     text-align: center;
     padding: 10px;
-    color: darkred;
+    color: gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: darkred;
+    color: green;
     padding: 30px;
-    background-color: indianred;
+    background-color: darkseagreen;
+}
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: black;
+    color: #ffff;
+    padding:30px;
+    text-align: center;
+  
+}
+
+.products{
+    background-color: #ffff;
+    border: 1px solid #dddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* transformando em container */
+    display: flex;
+    /* deixa o texto embaixo da imagem */
+    flex-direction: column;
+}
+.products img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    /* transformar a imagem em responsiva */
+}
+
+main#album{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
 }
